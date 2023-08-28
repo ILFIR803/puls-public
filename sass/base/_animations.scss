@@ -1,0 +1,24 @@
+@keyframes heartBeat {
+   from {transform: scale(1);
+   }
+   50% {transform: scale(1.4);
+   }
+   to {transform: scale(1);
+   }
+}
+
+@keyframes cup {
+   from {transform: rotateY(0deg);
+   };
+   to {transform: rotateY(360deg);
+   };
+}
+@keyframes sneakers {
+   from {transform: rotateZ(0deg);
+   };
+   50% {
+      transform: rotateZ(-25deg);
+   };
+   to {transform: rotateZ(0deg);
+   };
+}

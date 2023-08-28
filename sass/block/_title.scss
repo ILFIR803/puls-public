@@ -1,0 +1,23 @@
+.title {
+   font-size: 30px;
+   font-weight: bold;
+   line-height: normal;
+   text-transform: uppercase;
+   &_left {
+      color: #ffff;
+      font-size: 36px;
+      text-align: left;
+   }
+   &_tab {
+      color: #000000;
+      text-align: center;
+      margin-bottom: 69px;
+   }
+   &_reviews {
+      margin-bottom: 70px;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      color: #0d0d0d;
+   }
+ }

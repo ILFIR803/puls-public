@@ -1,0 +1,129 @@
+@media (max-width: 1200px) {
+   .container {
+      max-width: 850px;
+   }
+   .promo {
+      height: 600px;
+      &__header{
+         margin-top: 40px;
+      }
+   }
+   .advantages {
+      padding-top: 46px;
+      &__header {
+         font-size: 28px;
+      }
+      &__descr {
+         width: 210px;
+      }
+   }
+
+}
+
+@media (max-width: 991px) {
+   .container {
+      max-width: 700px;
+   }
+   .consultation {
+      &__descr {
+         margin-top: 50px;
+      }
+   }
+   .title {
+      &_left {
+         font-size: 28px;
+      }
+   }
+   .feed-form {
+      width: 270px;
+   }
+
+}
+
+@media (max-width: 767px) {
+   .container {
+      max-width: 550px;
+   }
+   .header {
+      &__logo {
+         width: 200px;
+      }
+      &__official {
+         font-size: 10px;
+         span {
+            font-size: 16px;
+         }
+      }
+      &__phone {
+         font-size: 14px;
+      }
+   }
+   .button {
+      width: 120px;
+      height: 20px;
+      font-size: 11px;
+      &_main {
+         width: 205px;
+         height: 40px;
+         font-size: 14px;
+      }
+      &_submit {
+         width: 100%;
+         height: 40px;
+         font-size: 16px;
+      }
+   }
+   .promo {
+      height: 485px;
+      &__header {
+         margin-top: 28px;
+         font-size: 33px;
+      }
+      &__subheader {
+         margin-top: 6px;
+         font-size: 20px;
+      }
+      &__icons {
+         width: 330px;
+      }
+      &__icon {
+         margin-top: 40px;
+      }
+      &__link {
+         margin-top: 4px;
+         font-size: 15px;
+      }
+
+   }
+   .advantages {
+      height: 100%;
+      &__elements {
+         flex-direction: column;
+         align-items: center;
+      }
+      &__subtitle {
+         margin-top: 28px;
+      }
+      &__descr {
+         width: 300px;
+      }
+   }
+   .consultation {
+      &__descr {
+         font-size: 18px;
+         margin-top: 50px;
+      }
+   }
+   .title {
+      &_left {
+         font-size: 22px;
+      }
+   }
+   .feed-form {
+      width: 270px;
+   }
+
+   .button-prev, .button-next {
+      display: none;
+   }
+}
