@@ -197,12 +197,6 @@
   text-align: center;
   color: #0d0d0d;
 }
-.advantages__img_animate {
-  animation-name: heartBeat;
-  animation-duration: 1.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
 .advantages__img_cup {
   animation: cup 3s linear infinite;
 }

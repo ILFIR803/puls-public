@@ -34,12 +34,12 @@
    }
    &__img {
       
-      &_animate {
-         animation-name: heartBeat;
-         animation-duration: 1.5s;
-         animation-timing-function: linear;
-         animation-iteration-count: infinite;
-      }
+      // &_animate {
+      //    animation-name: heartBeat;
+      //    animation-duration: 1.5s;
+      //    animation-timing-function: linear;
+      //    animation-iteration-count: infinite;
+      // }
       &_cup {
          animation: cup 3s linear infinite;
       }
