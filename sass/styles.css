@@ -895,6 +895,9 @@ iframe {
   .button_submit {
     font-size: 14px;
   }
+  .overlay {
+    z-index: 998;
+  }
   .modal {
     width: 270px;
     padding-left: 20px;
