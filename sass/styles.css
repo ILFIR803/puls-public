@@ -197,13 +197,6 @@
   text-align: center;
   color: #0d0d0d;
 }
-.advantages__img_cup {
-  animation: cup 3s linear infinite;
-}
-.advantages__img_sneakers {
-  animation: sneakers 2s linear infinite;
-}
-
 .consultation {
   min-height: 680px;
   padding: 100px 0px 92px 0px;
