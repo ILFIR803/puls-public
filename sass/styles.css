@@ -889,6 +889,12 @@ iframe {
   .button__header {
     font-size: 10px;
   }
+  .button__main {
+    font-size: 13px;
+  }
+  .button__submit {
+    font-size: 15px;
+  }
   .modal {
     width: 270px;
     padding-left: 20px;
