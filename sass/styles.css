@@ -899,6 +899,7 @@ iframe {
     width: 270px;
     padding-left: 20px;
     padding-right: 20px;
+    z-index: 999;
   }
   .modal__close {
     top: 10px;
