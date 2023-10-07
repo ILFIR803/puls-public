@@ -159,9 +159,15 @@
       }
    }
    .advantages {
-      &__elem {
-         img {
-            z-index: -1;
+      &__img {
+         &_animate {
+            animation: none;
+         }
+         &_cup {
+            animation: none;
+         }
+         &_sneakers {
+            animation: none;
          }
       }
    }
@@ -247,14 +253,11 @@
          font-size: 14px;
       }
    }
-   .overlay {
-      z-index: 998;
-   }
+
    .modal {
       width: 270px;
       padding-left: 20px;
       padding-right: 20px;
-      z-index: 999;
       &__close {
          top: 10px;
          right: 10px;
