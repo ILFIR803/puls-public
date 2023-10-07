@@ -158,6 +158,13 @@
          display: none;
       }
    }
+   .advantages {
+      &__elem {
+         img {
+            z-index: -1;
+         }
+      }
+   }
    .promo {
       &__header {
          font-size: 25px;

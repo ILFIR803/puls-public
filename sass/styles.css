@@ -829,6 +829,9 @@ iframe {
   .header__official {
     display: none;
   }
+  .advantages__elem img {
+    z-index: -1;
+  }
   .promo__header {
     font-size: 25px;
   }
