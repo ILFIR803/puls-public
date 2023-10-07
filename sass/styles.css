@@ -905,10 +905,10 @@ iframe {
     right: 10px;
   }
   .modal__subtitle {
-    font-size: 20px;
+    font-size: 10px;
   }
   .modal__descr {
-    font-size: 16px;
+    font-size: 10px;
   }
   .feed-form {
     width: 100%;
