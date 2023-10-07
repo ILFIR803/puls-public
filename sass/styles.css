@@ -883,4 +883,25 @@ iframe {
   .slider-line img {
     width: 170px;
   }
+  .button__header {
+    font-size: 10px;
+  }
+  .modal {
+    width: 270px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .modal__close {
+    top: 5px;
+    right: 5px;
+  }
+  .modal__subtitle {
+    font-size: 20px;
+  }
+  .modal__descr {
+    font-size: 16px;
+  }
+  .feed-form {
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
